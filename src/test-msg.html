@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <table>
+            <tr><td colspan="2"><h3>Msg settings</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-type">Choose a message type:</label></td>
+                <td>
+                    <select id="ctrl-msg-type">
+                        <option value="success">Success</option>
+                        <option value="info">Info</option>
+                        <option value="warning">Warning</option>
+                        <option value="error">Error</option>
+                        <option value="confirm">Confirm</option>
+                        <option value="input">Input</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-custom-type">Custom type:</label></td>
+                <td><input type="text" id="ctrl-msg-custom-type" value="Test type"></td>
+            </tr>
+            <tr><td colspan="2"><h3>Content settings</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-body">Message body:</label></td>
+                <td><input type="text" id="ctrl-msg-body" value="Test message"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-content">Content colour:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-content" value="#FFFFFF"></td>
+            </tr>
+            <tr><td colspan="2"><h3>Font settings</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-header-font">Header font:</label></td>
+                <td><input type="text" id="ctrl-msg-header-font" value="Verdana, sans-serif"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-header-font">Header font colour:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-header-font" value="#FFFFFF"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-content-font">Content font:</label></td>
+                <td><input type="text" id="ctrl-msg-content-font" value="Verdana, sans-serif"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-content-font">Content font colour:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-content-font" value="#000000"></td>
+            </tr>
+            <tr><td colspan="2"><h3>Sizings</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-max-width">Max width:</label></td>
+                <td><input type="text" id="ctrl-msg-max-width" value="386px"></td>
+            </tr>
+            <tr><td colspan="2"><h3>Colour settings</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-success">Success:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-success" value="#4caf50"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-info">Info:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-info" value="#2196F3"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-warning">Warning:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-warning" value="#ff9800"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-error">Error:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-error" value="#d32f2f"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-confirm">Confirm:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-confirm" value="#7308B0"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-input">Input:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-input" value="#7308B0"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-clr-custom">Custom:</label></td>
+                <td><input type="color" id="ctrl-msg-clr-custom" value="#4caf50"></td>
+            </tr>
+            <tr><td colspan="2"><h3>Custom text</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-ok">OK:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-ok" value="OK"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-cancel">Cancel:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-cancel" value="Cancel"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-confirm-ok">Confirm OK:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-confirm-ok" value="OK"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-confirm-cancel">Confirm cancel:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-confirm-cancel" value="Cancel"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-success">Success text:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-success" value="Success!"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-info">Info text:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-info" value="Info..."></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-warning">Warning text:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-warning" value="Warning!"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-error">Error text:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-error" value="Error!"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-confirm">Confirm text:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-confirm" value="Confirm?"></td>
+            </tr>
+            <tr>
+                <td><label for="ctrl-msg-txt-input">Input text:</label></td>
+                <td><input type="text" id="ctrl-msg-txt-input" value="Input"></td>
+            </tr>
+            <tr><td colspan="2"><h3>Icons</h3></td></tr>
+            <tr>
+                <td><label for="ctrl-msg-use-icons">Use icons:</label></td>
+                <td><input type="checkbox" id="ctrl-msg-use-icons" checked="true"></td>
+            </tr>
+        </table>
+        <br>
+        <button id="btn-show-msg">Show msg</button>
+        <script type="text/javascript" src="msg.js"></script>
+        <script type="text/javascript">
+            const btn = document.getElementById("btn-show-msg");
+
+            btn.onclick = function() {
+                const sel = document.getElementById("ctrl-msg-type");
+                const inp = document.getElementById("ctrl-msg-body");
+                const cus = document.getElementById("ctrl-msg-custom-type");
+
+                const msgType = (sel.value.toLowerCase() == "custom") ? cus.value : sel.value;
+
+                MSG_CONTENT_COLOUR = document.getElementById("ctrl-msg-clr-content").value;
+
+                MSG_HEADER_FONT = document.getElementById("ctrl-msg-header-font").value;
+                MSG_CONTENT_FONT = document.getElementById("ctrl-msg-content-font").value;
+
+                MSG_HEADER_FONT_COLOUR = document.getElementById("ctrl-msg-clr-header-font").value;
+                MSG_CONTENT_FONT_COLOUR = document.getElementById("ctrl-msg-clr-content-font").value;
+
+                MSG_SUCCESS_COLOUR = document.getElementById("ctrl-msg-clr-success").value;
+                MSG_INFO_COLOUR = document.getElementById("ctrl-msg-clr-info").value;
+                MSG_WARNING_COLOUR = document.getElementById("ctrl-msg-clr-warning").value;
+                MSG_ERROR_COLOUR = document.getElementById("ctrl-msg-clr-error").value;
+                MSG_CONFIRM_COLOUR = document.getElementById("ctrl-msg-clr-confirm").value;
+                MSG_INPUT_COLOUR = document.getElementById("ctrl-msg-clr-input").value;
+                MSG_CUSTOM_COLOUR = document.getElementById("ctrl-msg-clr-custom").value;
+
+                MSG_CONTENT_MAX_WIDTH = document.getElementById("ctrl-msg-max-width").value;
+
+                MSG_TEXT_OK = document.getElementById("ctrl-msg-txt-ok").value;
+                MSG_TEXT_CANCEL = document.getElementById("ctrl-msg-txt-cancel").value;
+                MSG_TEXT_CONFIRM_OK = document.getElementById("ctrl-msg-txt-confirm-ok").value;
+                MSG_TEXT_CONFIRM_CANCEL = document.getElementById("ctrl-msg-txt-confirm-cancel").value;
+
+                MSG_TEXT_SUCCESS = document.getElementById("ctrl-msg-txt-success").value;
+                MSG_TEXT_INFO = document.getElementById("ctrl-msg-txt-info").value;
+                MSG_TEXT_WARNING = document.getElementById("ctrl-msg-txt-warning").value;
+                MSG_TEXT_ERROR = document.getElementById("ctrl-msg-txt-error").value;
+                MSG_TEXT_CONFIRM = document.getElementById("ctrl-msg-txt-confirm").value;
+                MSG_TEXT_INPUT = document.getElementById("ctrl-msg-txt-input").value;
+
+                MSG_USE_ICONS = document.getElementById("ctrl-msg-use-icons").checked;
+
+                let onConfirm;
+                let onDecline;
+
+                if (msgType == "confirm") {
+                    onConfirm = function() {
+                        showMsg("info", "OK button clicked");
+                    }
+
+                    onDecline = function() {
+                        showMsg("info", "Cancel button clicked");
+                    }
+                } else if (msgType == "input") {
+                    onConfirm = function(sender, value) {
+                        showMsg("info", "OK button clicked. Input was: " + value);
+                    }
+
+                    onDecline = function(sender, value) {
+                        showMsg("info", "Cancel button clicked. Input was: " + value);
+                    }
+                }
+
+                if (!showMsg(msgType, inp.value, onConfirm, onDecline)) {
+                    alert('Could not show message');
+                }
+            }
+        </script>
+    </body>
+</html>
