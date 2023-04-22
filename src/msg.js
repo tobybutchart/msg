@@ -262,7 +262,7 @@ function buildMsg(msgType, onConfirm, onDecline, sender) {
             closeMsg();
 
             if (typeof onDecline === 'function') {
-                onConfirm(btnCancel, value);
+                onDecline(btnCancel, value);
             }
         };
         divFooter.appendChild(btnCancel);
