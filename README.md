@@ -49,7 +49,7 @@ showMsg("type", "my message");
 ```
 Where type is one of the above values, and my message is the message to be shown.
 
-For confirm types callback functions can be added for OK and Cancel button clicks:
+For <i>confirm</i> types callback functions can be added for OK and Cancel button clicks:
 ```js
 const onConfirm = function() {
     console.log("OK button clicked");
@@ -58,10 +58,10 @@ const onDecline = function() {
     console.log("Cancel button clicked");
 }
 
-showMsg("confirm",  "my message", onConfirm, onDecline)
+showMsg("confirm", "my message", onConfirm, onDecline)
 ```
 
-For input types callback functions can be added for OK and Cancel button clicks that will return the user added value:
+For <i>input</i> types callback functions can be added for OK and Cancel button clicks that will return the user added value:
 ```js
 onConfirm = function(sender, value) {
     console.log("OK button clicked. Input was: " + value);
@@ -71,7 +71,7 @@ onDecline = function(sender, value) {
     console.log("Cancel button clicked. Input was: " + value);
 }
 
-showMsg("confirm",  "my message", onConfirm, onDecline)
+showMsg("confirm", "my message", onConfirm, onDecline)
 ```
 
 The following global variables can be set to customise the modal window:
@@ -102,4 +102,4 @@ MSG_TEXT_CONFIRM | Sets the header text when the msg type is confirm | Confirm?
 MSG_TEXT_INPUT | Sets the header text when the msg type is input | Input
 MSG_USE_ICONS | Defines whether to use icons or not (icon pack is Google's Material Icons) | true
 
-See src/test-msg.html for a more comprehensive example.
+See [here](https://github.com/tobybutchart/msg/blob/master/src/test-msg.html) for a more comprehensive example.
